@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CategorySelectionActivity">
+    tools:context=".ChooseYourSubjectActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -16,19 +16,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="Category Selection"
+        app:title="Choose Your Subject"
         app:titleTextColor="@color/colorPrimaryDark">
 
     </androidx.appcompat.widget.Toolbar>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_below="@id/toolbar"
-        android:id="@+id/recycleViewCategory"
+        android:id="@+id/chooseSubjectRecycleView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-         />
+        />
     <Button
-        android:id="@+id/category_Selection_next_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
