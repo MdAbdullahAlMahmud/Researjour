@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Researjour</string>
+
+    <array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+    <array name="date">
+        <item>DAte of Birth</item>
+    </array>
 </resources>

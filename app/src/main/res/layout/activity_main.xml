@@ -57,7 +57,7 @@
         android:layout_margin="15dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="User Name"
+        android:hint="User Name"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
@@ -72,7 +72,7 @@
         android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="University"
+        android:hint="University"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
@@ -85,7 +85,7 @@
         android:ems="10"
         android:layout_margin="15dp"
         android:inputType="textPersonName"
-        android:text="Role"
+        android:hint="Role"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
@@ -103,19 +103,21 @@
         <Spinner
             android:id="@+id/gender_spinner"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:padding="10dp"/>
 
         <Spinner
-            android:id="@+id/date_of_birth"
+            android:id="@+id/date_of_birthSpinner"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
+            android:padding="10dp"
             android:layout_weight="1" />
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/nextBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next"

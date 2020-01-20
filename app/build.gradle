@@ -29,4 +29,5 @@ dependencies {
 
     // circle imageView
     implementation 'de.hdodenhof:circleimageview:3.0.2'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 }
